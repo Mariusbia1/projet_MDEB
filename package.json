@@ -1,0 +1,9 @@
+{
+  "name": "maison-entreprise-benin",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "python3 -m http.server 8000 --directory src",
+    "build": "mkdir -p dist && cp -R src/* dist/"
+  }
+}
