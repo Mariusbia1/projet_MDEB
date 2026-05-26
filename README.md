@@ -15,7 +15,7 @@ Landing page responsive en HTML, CSS et JavaScript vanilla pour presenter la pla
 ## Fichiers
 
 - `npm run dev` : lance un serveur local sur `http://localhost:8000`.
-- `npm run build` : copie le contenu de `src/` dans `dist/` pour la mise en ligne.
+- `npm run build` : commande de validation pour Vercel.
 
 ## Ouvrir le projet
 
@@ -34,4 +34,4 @@ Puis ouvrez `http://localhost:8000`.
 1. Publiez ce dossier sur GitHub.
 2. Sur Vercel, cliquez sur `Add New Project`.
 3. Importez le depot GitHub.
-4. Vercel detectera `vercel.json`, lancera `npm run build` et publiera le dossier `dist/`.
+4. Vercel detectera `vercel.json`, lancera `npm run build` et publiera le dossier `src/`.
