@@ -9,8 +9,8 @@ Landing page responsive en HTML, CSS et JavaScript vanilla pour presenter la pla
 - `src/style.css` : design responsive, couleurs, cartes, hero, footer.
 - `src/script.js` : menu mobile et activation des liens de navigation au scroll.
 - `src/assets/images/` : visuels placeholder utilises par la page.
-- `vercel.json` : configuration de deploiement Vercel.
-- `package.json` : scripts de developpement et de build.
+- `src/vercel.json` : configuration Vercel si le dossier racine du projet est `src`.
+- `src/package.json` : script de build utilise par Vercel dans `src`.
 
 ## Fichiers
 
@@ -34,4 +34,6 @@ Puis ouvrez `http://localhost:8000`.
 1. Publiez ce dossier sur GitHub.
 2. Sur Vercel, cliquez sur `Add New Project`.
 3. Importez le depot GitHub.
-4. Vercel detectera `vercel.json`, lancera `npm run build` et publiera le dossier `src/`.
+4. Dans les reglages Vercel, choisissez `src` comme `Root Directory`.
+5. Laissez `Output Directory` sur `.` si Vercel le demande.
+6. Vercel lancera `npm run build` depuis `src/` et publiera directement ce dossier.
